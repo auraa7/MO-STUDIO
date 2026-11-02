@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* CAI DAT CHUNG */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Playfair Display", Georgia, serif;
+    background-color: #F7F2EA;
+    color: #242124;
+}
+
+/* PHAN DAU TRANG */
+.header {
+    background-color: #E9D8C5;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.header h1 {
+    font-size: 42px;
+    letter-spacing: 8px;
+    color: #8E233D;
+}
+
+.header p {
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+/* THANH DIEU HUONG */
+.navbar {
+    background-color: #8E233D;
+    padding: 18px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #F7F2EA;
+    text-decoration: none;
+    margin: 0 22px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.navbar a:hover {
+    color: #E9D8C5;
+}
+
+/* BANNER */
+.hero {
+    min-height: 520px;
+    background: linear-gradient(
+        rgba(36, 33, 36, 0.45),
+        rgba(36, 33, 36, 0.45)
+    ),
+    url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1600")
+    center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero-content h2 {
+    font-size: 65px;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+
+.small-title {
+    letter-spacing: 4px;
+    color: #A64B5D;
+    font-size: 13px;
+}
+
+.hero .small-title {
+    color: #F7F2EA;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #8E233D;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: #642033;
+}
+
+/* GIOI THIEU */
+.about {
+    text-align: center;
+    padding: 90px 20%;
+    line-height: 2;
+}
+
+.about h2 {
+    color: #8E233D;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+/* BO SUU TAP */
+.collection {
+    background-color: #E9D8C5;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.collection h2 {
+    color: #8E233D;
+    margin: 20px 0 40px;
+    font-size: 32px;
+}
+
+.product {
+    background-color: #F7F2EA;
+    max-width: 600px;
+    margin: auto;
+    padding: 45px;
+    line-height: 2;
+}
+
+.product h3 {
+    color: #8E233D;
+    font-size: 25px;
+}
+
+/* CHAN TRANG */
+footer {
+    background-color: #242124;
+    color: #F7F2EA;
+    text-align: center;
+    padding: 45px 20px;
+    line-height: 2;
+}
+
+footer h2 {
+    letter-spacing: 5px;
+}
